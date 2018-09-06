@@ -1,3 +1,4 @@
 testing git
 checking diff
 checking conflicts
+git reset
