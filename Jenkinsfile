@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
+    stage('build') {
       steps {
-        echo 'checking out'
+        sh 'python hello.py'
       }
     }
   }
