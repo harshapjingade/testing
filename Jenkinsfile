@@ -6,5 +6,15 @@ pipeline {
         sh 'python hello.py'
       }
     }
+    stage('test') {
+      steps {
+        echo 'testing '
+      }
+    }
+    stage('deploy') {
+      steps {
+        echo 'deploy the code'
+      }
+    }
   }
 }
